@@ -1,3 +1,1 @@
-# Duplo
-Duplo Automation Assestment
-
+my Template -- Arete

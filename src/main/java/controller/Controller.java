@@ -10,7 +10,7 @@ import static util.ConfigReader.getUrl;
 public class Controller extends BasePage {
 
     // here we defined our controllers/ locators
-    public void clickElement(By locator) {
+    public static void clickElement(By locator) {
         driver.findElement(locator).click();
     }
 
@@ -22,7 +22,7 @@ public class Controller extends BasePage {
         return driver.findElement(location).isDisplayed();
     }
 
-    public void openPage() throws IOException {
+    public static void openPage() throws IOException {
         driver.get(getUrl());
     }
 
